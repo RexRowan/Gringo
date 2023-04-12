@@ -22,7 +22,7 @@ form {
 }
 
 input[type=text] {
-    width: 50%;
+    width: 100%;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
@@ -32,6 +32,7 @@ input[type=text] {
     background-position: 10px 10px;
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
+    margin: 20px;
   }
 
   input[type=submit] {
@@ -58,7 +59,7 @@ input[type=text] {
     font-size: 16px;
     border: none;
     color: white;
-    padding: 16px 32px;
+    padding: 16px 10px;
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
@@ -68,5 +69,6 @@ input[type=text] {
     color: white;
     padding-top: 200px;
 }
+
 
 
