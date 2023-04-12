@@ -23,10 +23,20 @@
           </ul>
           <div id="search">
             <img src="gringo-ultra.png" class="center">
-          <form action="https://www.google.co.uk/advanced_search">
-            <input type="text" class="form-control input-field" id="input" name="q" placeholder="Search..">
-            <input type="hidden" name="tbm" value="isch">
-            <input type="submit" value="Advanced Search">
+
+            <div class="row mb-3">
+                
+                <form action="https://google.com/search">
+                  <p>Find pages with...</p>
+                <input type="input" class="form-control form-control-sm" id="colFormLabelSm" name="as_q" placeholder="all these words:">
+                <input type="input" class="form-control form-control-sm" id="colFormLabelSm" name="as_epq" placeholder="this exact word or phrase:">
+                <input type="input" class="form-control form-control-sm" id="colFormLabelSm" name="as_oq" placeholder="any of these words:">
+                <input type="input" class="form-control form-control-sm" id="colFormLabelSm" name="as_eq" placeholder="none of these words::">
+                <input type="hidden" name="tbm" value="isch">
+                                      <input  type="submit" value="Advanced Search">
+            </form>
+              </div>
+            </div>
           </form>
           </div>
 
