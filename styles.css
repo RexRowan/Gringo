@@ -35,7 +35,11 @@ input[type=text] {
     margin: 20px;
   }
 
-  input[type=submit] {
+input[type=text] {
+    margin: 20px;
+  }
+
+input[type=submit] {
     width: 20%;
     background-color: #4CAF50;
     padding: 14px 20px;
